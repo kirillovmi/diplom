@@ -1,0 +1,407 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;
+}
+
+h3 {
+	font-size: 48px;
+	margin-bottom: 28px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* section {
+	padding-top: 113px	
+} */
+
+p {
+	margin: 0;
+}
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1170px;
+	/*позиционирование по центру*/
+	margin: 0 auto; 
+}
+
+.headerr {
+	background: url('../img/header-bg.jpg') no-repeat center top / cover;
+	padding-top: 40px;
+	color: #fff;
+	padding-bottom: 322px
+}
+
+.headerr a {
+	color: #fff;
+}
+
+.logo {
+	margin-right: 69px;
+}
+.activ{
+	height: 22px;
+	border-bottom: 1px solid white;
+}
+.menu {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu li a {
+	font-size: 14px;
+}
+
+.menu li a:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.menu li {
+	margin-right: 40px;
+	margin: 0 15px;
+}
+
+.offer {
+	margin-top: 216px;
+	text-align: center;
+}
+
+.offer p {
+	font-size: 16px;
+}
+
+.offer h3 {
+	font-size: 64px;
+	margin-bottom: 19px;
+	margin-top: 20px;
+}
+
+.btn {
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 10px;
+	border-radius: 20px;
+	width: 238px;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #fff;
+	border: 1px solid #fff;
+    color: #000;
+}
+.description {
+	display: flex;
+	justify-content: space-between;
+}
+
+.description p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 1.62em;
+}
+
+.desc-left, .desc-right {
+	width: 567px;
+}
+
+.gallery {
+	margin-top: 67px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.gallery img {
+	transition: all 0.5s ease;
+}
+
+.gallery img:hover {
+	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+	transform: scale(1.1);
+}
+.footer{
+	background: #F6F6F8;
+}
+.footer p{
+	text-align: center;
+}
+.footer-flex{
+	display: flex;
+}
+.footer-text {
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 50px 0;
+	max-width: 300px;
+}
+
+.footer-text p {
+	margin-right: 67px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.footer-text li{
+	font-size: 14px;
+	margin-right: 50px;
+	margin: 0 15px;
+	margin-bottom: 30px;
+	color: #999999;
+}
+.footer-text a{
+	color: #999999;
+}
+.services {
+	margin-top: 80px;
+}
+
+.services__item	{
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+
+.services__item h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.services__item p {
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.55em;
+}
+
+.services__item {
+	margin-left: 80px;
+	justify-content: space-between;
+}
+
+#services {
+	padding-bottom: 120px;
+	background: #E5E5E5;
+}
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.title h2 {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 53px;
+	text-align: center;
+	margin: 0;
+}
+
+.title p {
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 55px;
+}
+.ofr {
+	margin-top: 36px;
+	margin-left: 1px;
+	text-align: center;
+}
+.about
+{
+	background: #F6F6F8;
+	margin-bottom: 25px;
+}
+.vid {
+	background: url('../img/bottom-bg.jpg') no-repeat center top / cover;
+	padding-top: 40px;
+	color: #fff;
+	padding-bottom: 322px;
+	max-height: 570px;
+	margin-bottom: 300px;
+}
+.vid h3,p
+{
+	text-align: center
+}
+
+.mult{
+	margin-top: 150px; 
+	width: 970px;
+	height: 430px;
+	margin-left: 475px;
+	margin-bottom: 50px;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(4.jpg);
+	box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+	border-radius: 10px;
+	z-index: 999999;
+}
+.project {
+	background: url('../img/Rectangle	.svg') no-repeat center top / cover;
+	padding-top: 40px;
+	color: #fff;
+	padding-bottom: 322px;
+	max-height: 570px;
+	margin-bottom: 100px;
+}
+.project h3,p
+{
+	text-align: center
+}
+* {box-sizing: border-box;}
+.product-item {
+	padding-left: 20px;
+	padding-right: 20px;
+  width: 380px;
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #F5F5F5;
+  background: white;
+  font-family: "Open Sans";
+  transition: .3s ease-in;
+}
+.product-item:hover {border-bottom: 2px solid #fc5a5a;}
+.product-item img {
+  display: block;
+  width: 100%;
+}
+.product-list {
+  background: #fafafa;
+  padding: 15px 0;
+}
+.product-list h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #444444;
+  margin: 0 0 10px 0;
+}
+.price {
+  font-size: 16px;
+  color: #fc5a5a;
+  display: block;
+  margin-bottom: 12px;
+}
+.button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 12px;
+  background: #cccccc;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 28px;
+  transition: .3s ease-in;
+}
+.product-item:hover .button {background: #fc5a5a;}
+.header1 {
+	background: url('../img/header-bg1.png') no-repeat center top / cover;
+	padding-top: 40px;
+	color: #fff;
+	padding-bottom: 322px
+}
+
+.header1 a {
+	color: #fff;
+}
+.header2 {
+	background: url('../img/header-bg2.png') no-repeat center top / cover;
+	padding-top: 40px;
+	color: #fff;
+	padding-bottom: 322px
+}
+
+.header2 a {
+	color: #fff;
+}
+.header3 {
+	/* background: url('../img/header-bg2.png') no-repeat center top / cover; */
+	padding-top: 40px;
+	color: black;
+}
+
+.header3 a {
+	color: black;
+}
+.lesson{
+	color: black;
+	padding-bottom: 322px;
+	max-height: 570px;
+	margin-bottom: 300px;
+}
+.vid h3,p
+{
+	text-align: center
+}
+.mult-less{
+	width: 970px;
+	height: 430px;
+	margin-left: 475px;
+	margin-bottom: 50px;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(4.jpg);
+	box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+	border-radius: 10px;
+	z-index: 999999;
+}
+.task{
+	margin-bottom: 300px
+}
+
+.list {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.admin{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.errors {
+	background-color: #ffeef0;
+	padding: 10px;
+}
+
+.msg {
+	background-color: #cdffd8;
+	padding: 10px;
+}
+
+.profile_card {
+	text-align: center;
+}
+
+.profile_card img {
+	max-width: 150px;
+	max-height: 150px;
+}
+
+.profile_card button {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}

@@ -1,0 +1,20 @@
+.section__first .section__panels img {
+  padding: 5px;
+  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+  width: 100%;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Balsamiq Sans', cursive;
+  background: url("../img/bck1.jpg") no-repeat ; 
+}
+.tabl{
+  float: right
+}
+.less{
+  float: left;
+  margin-left: 25em
+}
